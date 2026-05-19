@@ -22,5 +22,5 @@ def load_rinex(obs_path, interval=30):
     print("Loading observation data...")
     obs = gr.load(obs_path, interval=30)  # Load all observation data (interval=30 means keep 30-sec rate)
 
-    print("Loaded successfully")
+    print("Data Loaded successfully")
     return obs, header
